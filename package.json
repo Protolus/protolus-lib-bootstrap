@@ -1,0 +1,91 @@
+{
+    "name": "protolus-lib-bootstrap",
+    "homepage": "https://github.com/Protolus/protolus-lib-bootstrap",
+    "version": "0.0.1-alpha",
+    "main": "protolus-lib-bootstrap.js",
+    "description": "A package for including bootstrap through the protolus resource loader",
+    "keywords": [
+        "bootstrap",
+        "frontend",
+        "framework"
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/Protolus/protolus-lib-bootstrap/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Protolus/protolus-lib-bootstrap.git"
+    },
+    "resources" : [
+        "bootstrap/js/bootstrap-affix.js", 
+        "bootstrap/js/bootstrap-dropdown.js", 
+        "bootstrap/js/bootstrap-tooltip.js",
+        "bootstrap/js/bootstrap-alert.js", 
+        "bootstrap/js/bootstrap-modal.js", 
+        "bootstrap/js/bootstrap-transition.js",
+        "bootstrap/js/bootstrap-button.js", 
+        "bootstrap/js/bootstrap-popover.js", 
+        "bootstrap/js/bootstrap-typeahead.js",
+        "bootstrap/js/bootstrap-carousel.js", 
+        "bootstrap/js/bootstrap-scrollspy.js",
+        "bootstrap/js/bootstrap-collapse.js", 
+        "bootstrap/js/bootstrap-tab.js",
+        
+        "bootstrap/less/accordion.less", 
+        "bootstrap/less/pager.less", 
+        "bootstrap/less/alerts.less", 
+        "bootstrap/less/pagination.less", 
+        "bootstrap/less/bootstrap.less", 
+        "bootstrap/less/popovers.less", 
+        "bootstrap/less/breadcrumbs.less", 
+        "bootstrap/less/progress-bars.less", 
+        "bootstrap/less/button-groups.less", 
+        "bootstrap/less/reset.less", 
+        "bootstrap/less/buttons.less", 
+        "bootstrap/less/responsive-1200px-min.less", 
+        "bootstrap/less/carousel.less", 
+        "bootstrap/less/responsive-767px-max.less", 
+        "bootstrap/less/close.less", 
+        "bootstrap/less/responsive-768px-979px.less", 
+        "bootstrap/less/code.less", 
+        "bootstrap/less/responsive-navbar.less", 
+        "bootstrap/less/component-animations.less", 
+        "bootstrap/less/responsive-utilities.less", 
+        "bootstrap/less/dropdowns.less", 
+        "bootstrap/less/responsive.less", 
+        "bootstrap/less/forms.less", 
+        "bootstrap/less/scaffolding.less", 
+        "bootstrap/less/grid.less", 
+        "bootstrap/less/sprites.less", 
+        "bootstrap/less/hero-unit.less", 
+        "bootstrap/less/tables.less", 
+        "bootstrap/less/labels-badges.less", 
+        "bootstrap/less/layouts.less", 
+        "bootstrap/less/thumbnails.less", 
+        "bootstrap/less/media.less", 
+        "bootstrap/less/tooltip.less", 
+        "bootstrap/less/mixins.less", 
+        "bootstrap/less/type.less", 
+        "bootstrap/less/modals.less", 
+        "bootstrap/less/utilities.less", 
+        "bootstrap/less/navbar.less", 
+        "bootstrap/less/variables.less", 
+        "bootstrap/less/navs.less", 
+        "bootstrap/less/wells.less"
+    ],
+    "dependencies": {
+        "prime": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "optionalDependencies": {
+    },
+    "engines": {
+        "node": "*"
+    }
+}
